@@ -1,4 +1,4 @@
-name: X-finish, Leave a review
+name: X-finish, Reopen an Issue
 
 # This step triggers after an issue is reopened.
 # This workflow updates from step 5.2 to X-finish.
