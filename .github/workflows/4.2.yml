@@ -1,4 +1,4 @@
-name: Step 5.1, Leave a review
+name: Step 4.2, Mention a team member in a comment
 
 # This step triggers after a team member is mentioned.
 # This workflow updates from step 4.2 to step 5.1.
