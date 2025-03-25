@@ -1,4 +1,4 @@
-name: Step 5.2, Leave a review
+name: Step 5.1, Resolve an Issue
 
 # This step triggers after an issue is resolved.
 # This workflow updates from step 5.1 to step 5.2.
