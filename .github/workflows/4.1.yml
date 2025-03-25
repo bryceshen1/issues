@@ -1,4 +1,4 @@
-name: Step 4.2, Leave a review
+name: Step 4.1, Comment on an issue
 
 # This step triggers after someone comments on the issue.
 # This workflow updates from step 4.1 to step 4.2.
