@@ -1,4 +1,4 @@
-name: Step 3, Leave a Review
+name: Step 2.2, Assign Milestones
 
 # This step triggers after a milestone is assigned to an issue.
 # This workflow updates from step 2.2 to step 3.
