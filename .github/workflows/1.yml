@@ -17,6 +17,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Debug Issue Event
+        run: |
+          echo "Triggered by Issue Event"
+          echo "Issue title: ${{ github.event.issue.title }}"
+          echo "Issue body: ${{ github.event.issue.body }}"
+          echo "Repository is template: ${{ github.event.repository.is_template }}"
+
       - name: Debug step file existence
         run: |
           if [ -f ./.github/steps/-step.txt ]; then
@@ -28,7 +35,7 @@ jobs:
 
       - id: get_step
         run: |
-          current_step=$(cat ./.github/steps/-step.txt)
+          current_step=$(cat ./.github/steps/-step.txt | tr -d '[:space:]')
           echo "current_step=${current_step}" >> $GITHUB_OUTPUT
 
       - name: Debug current step
@@ -41,7 +48,8 @@ jobs:
     name: On issue opened
     needs: get_current_step
     if: >-
-      ${{ !github.event.repository.is_template
+      ${{ github.event_name == 'issues' 
+          && !github.event.repository.is_template
           && needs.get_current_step.outputs.current_step == '1' }}
     runs-on: ubuntu-latest
     steps:
