@@ -1,4 +1,4 @@
-name: Step 3, Leave a review
+name: Step 3, Assign Issues to teams
 
 # This step triggers after an issue is assigned to a team member.
 # This workflow updates from step 3 to step 4.1.
