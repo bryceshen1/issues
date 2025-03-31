@@ -28,7 +28,6 @@ jobs:
             cat ./.github/steps/-step.txt
           else
             echo "Step file not found!" && exit 1
-          fi
 
       - id: get_step
         run: |
@@ -68,7 +67,6 @@ jobs:
             echo "Branch exists."
           else
             echo "Branch 'update-game' does not exist!" && exit 1
-          fi
 
       # Update README to progress from step 2.1 to 2.2
       - name: Update to step 2.2
