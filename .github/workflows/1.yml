@@ -31,6 +31,7 @@ jobs:
             cat ./.github/steps/-step.txt
           else
             echo "Step file not found!" && exit 1
+          fi
 
       - id: get_step
         run: |
