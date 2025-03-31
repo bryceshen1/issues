@@ -31,7 +31,6 @@ jobs:
             cat ./.github/steps/-step.txt
           else
             echo "Step file not found!" && exit 1
-          fi
 
       - id: get_step
         run: |
@@ -65,7 +64,6 @@ jobs:
             echo "Branch exists."
           else
             echo "Branch 'update-game' does not exist!" && exit 1
-          fi
 
       - name: Update to step 2.1
         uses: skills/action-update-step@v2
@@ -74,3 +72,12 @@ jobs:
           from_step: 1
           to_step: 2.1
           branch_name: update-game
+
+      - name: Read the next step markdown file
+        run: |
+          cat ./.github/steps/2.1-assign-labels.md
+
+      - name: Update markdown file to next step
+        run: |
+          mv ./.github/steps/1-create-an-issue.md ./.github/steps/2.1-assign-labels.md
+          echo "Updated markdown file to next step"
