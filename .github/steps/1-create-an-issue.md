@@ -1,30 +1,43 @@
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+## Step 1: Creating an Issue :rocket:
 
-## Step 1: Creating an Issue
+Welcome to GitHub Issues!
 
-_Welcome to GitHub Issues! :wave:_
+### :question: What is an Issue?
 
-Let's get started by creating an issue.
+An **Issue** is a task, bug, or feature request that you can track and follow up on within a project. It's a great way to manage tasks and let your team know what needs to be done.
 
-**What is an Issue?**: An Issue is a task, bug, or feature request that you can follow up on within a project. It's a great way to manage tasks and let your team know what they need to get done.
+The best way to start tracking work is by opening an Issue. When creating an issue, you can write a clear description and label it to improve team clarity. Aim for a concise and detailed description of the task at hand, including any relevant context.
 
-### :keyboard: Activity: Create an Issue
+---
+
+### :keyboard: Task: Open an Issue
 
 1. Go to the **Issues** tab in your GitHub repository.
 2. On GitHub, navigate to the main page of the repository.
 3. Under your repository name, click **Issues**.
 4. Click **New issue** to create a new issue.
-5. If your repository uses issue templates, click **Get started** next to the type of issue you'd like to open.
-6. If the type of issue you'd like to open isn't included in the available options, click **Open a blank issue**.
-7. In the **Title** field, type a title for your issue—typically one that summarizes the task/problem.
-8. In the comment body field, type a description of your issue. Provide a detailed background that summarizes the issue and necessary information/steps.
-> *You can also assign the issue to someone, add it to a project, associate it with a milestone, set the issue type, and apply a label, but you will learn those later in the skill.*
 
-9. When you're finished, click **Submit new issue**.
-10. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+#### :memo: Using Templates:
+- If your repository uses issue templates, click **Get started** next to the issue type you'd like to open.
+- If not, click **Open a blank issue**.
+
+#### :brain: Filling in the Issue:
+5. In the **Title** field, type a brief summary of the task/problem.
+6. In the **Comment body** field, provide a detailed background of the issue and include any necessary information or steps.
+
+---
+
+### :label: Adding Labels to Your Issue
+
+Adding labels makes it easier to track and categorize your issue within pull requests or discussions.
+
+1. In the horizontal navigation bar, click the **Issues** tab (:pushpin: outlined in orange).
+2. Above the list of issues or pull requests, click **Labels**.
+3. To the right of the search field, click **New label**.
+4. Under **Label name**, type a name for your label.
+5. Under **Description**, type a short explanation to help others understand and use the label.
+6. Click **:white_check_mark: Create label** / **:floppy_disk: Save changes** / **:wastebasket: Delete** depending on your task.
+
+---
+
+:white_check_mark: **When you're finished, click** **Submit new issue** **to open it!** :tada:
